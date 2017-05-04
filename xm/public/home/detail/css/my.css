@@ -1,0 +1,29 @@
+.bottom-line li{
+            display: inline;
+        }
+        .box-right{
+            display: inline;
+            float:right;
+            list-style:none;
+            margin-right:20px;
+            font-size:20px;
+        }
+        #nav div,#nav2 div{
+            display: inline;
+            line-height:75px;
+            font-size:25px;
+            margin-left:20px;
+        }
+        #nav,#nav2{
+            width:100%;
+            height:75px;
+            background:white;
+            border-top:1px solid #E0E0E0;
+        }
+        #nav2{
+            display: none;
+            z-index:9999;
+            position:fixed;
+            top:0px;
+            box-shadow:0 5px 5px #E0E0E0;
+        }
